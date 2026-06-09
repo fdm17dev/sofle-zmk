@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <input/processors.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
