@@ -185,3 +185,118 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [13, 14]
+  k: ESCAPE
+  l: [default]
+- p: [28, 29]
+  k: ENTER
+  l: [default]
+- p: [26, 27]
+  k: BACKSPACE
+  l: [default]
+- p: [27, 28]
+  k: DELETE
+  l: [default]
+- p: [40, 41]
+  k: LCTRL
+  l: [default]
+- p: [41, 28]
+  k: LEFT ALT
+  l: [default]
+- p: [29, 41]
+  k: LEFT GUI
+  l: [default]
+- p: [40, 41, 54]
+  k: Ctl+LEFT SHIFT
+  l: [default]
+- p: [28, 41, 54]
+  k: Alt+LEFT SHIFT
+  l: [default]
+- p: [29, 41, 54]
+  k: Gui+LSHIFT
+  l: [default]
+- p: [38, 39]
+  k: Ctl+C
+  l: [default]
+- p: [39, 40]
+  k: Ctl+V
+  l: [default]
+- p: [40, 38]
+  k: Ctl+X
+  l: [default]
+- p: [37, 38]
+  k: Ctl+A
+  l: [default]
+- p: [14, 15]
+  k: Ctl+Z
+  l: [default]
+- p: [15, 16]
+  k: Y
+  l: [default]
+- p: [18, 19]
+  k: '='
+  l: [default]
+- p: [31, 30]
+  k: <
+  l: [default]
+- p: [45, 44]
+  k: '>'
+  l: [default]
+- p: [19, 20]
+  k: (
+  l: [default]
+- p: [31, 32]
+  k: '{'
+  l: [default]
+- p: [45, 46]
+  k: '['
+  l: [default]
+- p: [20, 21]
+  k: )
+  l: [default]
+- p: [33, 32]
+  k: '}'
+  l: [default]
+- p: [46, 47]
+  k: ']'
+  l: [default]
+- p: [33, 34]
+  k: ':'
+  l: [default]
+- p: [21, 22]
+  k: '"'
+  l: [default]
+- p: [47, 48]
+  k: ''''
+  l: [default]
+- p: [32, 21]
+  k: +
+  l: [default]
+- p: [31, 21]
+  k: '-'
+  l: [default]
+- p: [31, 22]
+  k: _
+  l: [default]
+- p: [31, 33]
+  k: '`'
+  l: [default]
+- p: [31, 47]
+  k: '?'
+  l: [default]
+- p: [31, 34]
+  k: '|'
+  l: [default]
+- p: [31, 48]
+  k: '~'
+  l: [default]
+- p: [31, 55]
+  k: \
+  l: [default]
+- p: [19, 20, 21]
+  k: '&msc SCRL_UP'
+  l: [default, raise]
+- p: [45, 46, 47]
+  k: '&msc SCRL_DOWN'
+  l: [default, raise]
