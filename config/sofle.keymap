@@ -17,7 +17,6 @@
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 900   // mousescroll SPEED
 
@@ -354,6 +353,11 @@
             timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 2>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <25 26>;
         };
     };
 
