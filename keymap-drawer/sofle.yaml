@@ -104,8 +104,8 @@ layers:
   - ''
   - ''
   - ''
-  - PREV
-  - NEXT
+  - Alt+LEFT ARROW
+  - Alt+RIGHT ARROW
   - ''
   - ''
   - '&mkp LCLK'
