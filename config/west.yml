@@ -2,10 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: t-ogura
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    # Telemetry over BLE advertisement (layer, modifiers, profile, battery).
+    # Pinned to a tag so CI rebuilds don't pull breaking changes.
+    - name: prospector-zmk-module
+      remote: t-ogura
+      revision: v2.2.3
+      path: modules/prospector-zmk-module
   self:
     path: config
